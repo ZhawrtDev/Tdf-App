@@ -26,6 +26,14 @@ export default () => {
         navigation.navigate("SavedVideos");
     };
 
+    const handleNavigationNotificação = () => {
+        // navigation.navigate("Search");
+    };
+
+    const handleNavigationSearch = () => {
+        navigation.navigate("Search");
+    };
+
     return (
         <Main>
             <FirstMain>
@@ -48,7 +56,7 @@ export default () => {
                     </ContentText>
                 </FirstContent>
 
-                <TouchableOpacity onPress={handleNavigationInicio}>
+                <TouchableOpacity onPress={handleNavigationNotificação}>
                     <IconMain>
                         <Octicons name="bell" size={20} color="#302E30" />
                         <BallRed></BallRed>
@@ -56,7 +64,7 @@ export default () => {
                 </TouchableOpacity>
             </FirstMain>
 
-            <TouchableOpacity>
+            <TouchableOpacity onPress={handleNavigationSearch}>
                 <Search style={{ borderRadius: 15 }}>
                     <SearchContent>
                         <Ionicons name="search-outline" size={20} color="#D1CDD1" />
@@ -111,7 +119,7 @@ const BoasVindas = styled.Text`
 const CanalNome = styled.Text`
     color: #2E2C2D;
     font-size: 20px;
-    font-family: "Montserrat_700Bold";
+    font-family: "Poppins_700Bold";
     margin-top: 5px;
 `;
 
@@ -153,7 +161,7 @@ const SearchContent = styled.View`
 `;
 
 const SearchText = styled.Text`
-    font-family: "Roboto_300Light";
+    font-family: "Poppins_500Medium";
     margin-left: 5px;
     color: #D1CDD1;
     font-size: 14px;
@@ -174,12 +182,12 @@ const SubNavApr = styled.View`
     flex-direction: row;
     width: 95%;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 `;
 
 const NomedContent = styled.Text`
     font-size: 18px;
-    font-family: "Montserrat_700Bold";
+    font-family: "Poppins_700Bold";
     color: #222022;
 `;
 

@@ -199,7 +199,7 @@ const ContentAlt = styled.View`
 
 const TextAlt = styled.Text`
   font-size: 20px;
-  font-family: "Roboto_700Bold";
+  font-family: "Poppins_700Bold";
   text-align: center;
   color: #232123;
 `;
@@ -216,6 +216,7 @@ const VideoCard = styled.View`
   margin-left: ${({ isListView }) => isListView ? '0px' : '-10px'};
   position: relative;
   margin-bottom: 10px;
+  margin-top: -10px;
   padding: 10px;
   background: #fffafa;
   margin-right: 5px;

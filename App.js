@@ -3,14 +3,13 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import MainStack from './src/stacks/MainStack';
 
-import { useFonts, Roboto_700Bold,Roboto_500Medium ,Roboto_400Regular, Roboto_300Light } from "@expo-google-fonts/roboto"
+import { useFonts, Poppins_700Bold, Poppins_600SemiBold, Poppins_500Medium } from "@expo-google-fonts/poppins"
 
 export default function App() {
   const [fontLoaded] = useFonts({
-    Roboto_700Bold,
-    Roboto_500Medium,
-    Roboto_400Regular,
-    Roboto_300Light,
+    Poppins_700Bold,
+    Poppins_600SemiBold,
+    Poppins_500Medium,
 });
 
   if (!fontLoaded) {

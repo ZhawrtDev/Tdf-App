@@ -424,7 +424,7 @@ const SavedVideosScreen = () => {
 export default SavedVideosScreen;
 
 const CabeçarioFav = styled.View`
-  margin: 40px 0px 20px 0px;
+  margin: 40px 0px 10px 0px;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
@@ -439,7 +439,9 @@ const ContentLogo = styled.View`
 `;
 
 const ContentLogoText = styled.Text`
-  font-family: "Montserrat_700Bold";
+  position: relative;
+  top: 3px;
+  font-family: "Poppins_700Bold";
   font-size: 20px;
   margin-left: 10px;
   color: #222022;
@@ -453,7 +455,7 @@ const ContentIcon = styled.View`
 
 const MainBox = styled.View`
   flex-direction: row;
-  margin-left: -10px;
+  margin-left: 5px;
   justify-content: space-around;
 `;
 
@@ -492,18 +494,18 @@ const NoVideosText = styled.Text`
 `;
 
 const ContentAlt = styled.View`
-  margin-top: 15px;
+  margin-top: 5px;
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
   margin-left: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   width: 90%;
 `;
 
 const TextAlt = styled.Text`
   font-size: 20px;
-  font-family: "Montserrat_700Bold";
+  font-family: "Poppins_700Bold";
   text-align: center;
   color: #232123;
 `;
@@ -519,7 +521,7 @@ const MargAlt = styled.View`
 const VideoCard = styled.View`
   position: relative;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 5px 10px;
   background: #fffafa;
   margin-right: 5px;
   border-radius: 25px;
@@ -725,7 +727,7 @@ const InformGt = styled.View`
 const TextGt = styled.Text`
   font-size: 17px;
   color: #222022;
-  font-family: "Montserrat_700Bold";
+  font-family: "Poppins_700Bold";
 `;
 
 const OutherText = styled.Text`

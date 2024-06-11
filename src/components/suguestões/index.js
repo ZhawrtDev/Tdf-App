@@ -35,12 +35,13 @@ const AltNav = styled.View`
     justify-content: space-between;
     align-items: center;
     width: 95%;
+    margin-bottom: -10px;
 `;
 
 const Sugestao = styled.Text`
     font-size: 18px;
     color: #232123;
-    font-family: "Montserrat_700Bold";
+    font-family: "Poppins_700Bold";
 `;
 
 const VerMais = styled.Text`
